@@ -1,0 +1,24 @@
+{
+  "active": true,
+  "category": "games",
+  "description": "An interactive trivia game with scoring, streaks, and leaderboards",
+  "id": "trivia_master_001",
+  "name": "trivia_master",
+  "long_description": "Engaging daily trivia game host that provides questions from various categories, scores answers with difficulty multipliers, maintains streaks with bonuses, and shows real-time leaderboards. Perfect for team building, knowledge testing, and competitive fun with friends.",
+  "short_description": "Interactive trivia game with scoring and leaderboards",
+  "nodes": [
+    {
+      "id": "trivia_agent",
+      "name": "Trivia Master",
+      "parameters": {},
+      "position": [400, 200],
+      "type": "a2a/mastra-a2a-node",
+      "typeVersion": 1,
+      "url": "http://tinkling-numerous-autumn.mastra.cloud"
+    }
+  ],
+  "pinData": {},
+  "settings": {
+    "executionOrder": "v1"
+  }
+}

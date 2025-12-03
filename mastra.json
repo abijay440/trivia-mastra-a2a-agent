@@ -1,0 +1,9 @@
+{
+  "mastra": {
+    "version": "1.0.0",
+    "entry": "./src/mastra.ts",
+    "agents": ["./src/agents/trivia-agent.ts"],
+    "tools": ["./src/tools/game-tools.ts"],
+    "routes": ["./src/routes/a2a-agent-route.ts"]
+  }
+}
